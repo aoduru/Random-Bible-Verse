@@ -35,7 +35,7 @@ def error(bot, update):
 
 def main():
     # Create updater to pass in the bot's token
-    updater = Updater('1050439776:AAEWHK-iFOEF4fc0c3xCpDHJtupdl9PAC0s')
+    updater = Updater('TOKEN') ## TO-DO: udpate with your own token generated from the Telegram Bot
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
     
